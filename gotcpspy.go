@@ -208,7 +208,7 @@ func pipeWhenClose(conn net.Conn, target string) {
 			t:=time.Now()
 			t.Format("15:04:05")
 			fmt.Println(tcpAddr.Zone,":",tcpAddr.IP,"--->", target)
-			fmt.Println("date: ", t.Format("2006-01-02 15:04:05"),"\n")
+			//fmt.Println("date: ", t.Format("2006-01-02 15:04:05"),"\n")
 
 		} else {
 			tcpAddr.Zone = "ip6"
