@@ -188,7 +188,7 @@ func parseTarget(conn net.Conn) (host string, err error) {
 
 	return
 }
-
+// asdsd
 func pipeWhenClose(conn net.Conn, target string) {
 
 	if Verbose {
